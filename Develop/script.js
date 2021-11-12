@@ -21,6 +21,8 @@ console.log(megaArray);
 let numberOfCharacters = prompt("Enter password length: ")
   console.log(numberOfCharacters);
 
+
+
   if (numberOfCharacters < 8){
     alert("Please enter a number between 8 and 100.")
   } else {
@@ -32,13 +34,6 @@ let numberOfCharacters = prompt("Enter password length: ")
   } else {
 
   }
-
-
-
-
-
-
-
 
 
 
@@ -56,17 +51,44 @@ function writePassword() {
 
 }
 
+function generatePassword() {
+
+  return "123";
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
 
-// if (firstpasschoice === true){
+// Generate random number
 
-//   concatarraypaass = [....name, ... name] // build up 
-// }
+let randomNumber = Math.floor(Math.random()*upperCaseCharacters.length)
+
+upperCaseCharacters[randomNumber]
+
+for (i=0, i< 100, i++) {
+
+}
+
+console.log(i)
 
 
-for (let i = 0; i < numCharacters; i++) {
-  const element = array[i];
+let password = "";
+for (let index = 0; index < 100; index++) {
+  password+="a";
+  console.log(password)
   
 }
+
+
+
+
+
+
+// if (firstpasschoice === true){
+
+
+// for (let i = 0; i < numCharacters; i++) {
+//   const element = array[i];
+  
+// }

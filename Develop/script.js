@@ -18,8 +18,24 @@ console.log(megaArray);
 
 // Initial Prompt : Number of Characters in New Pass
 
-let numberOfCharacters = prompt ("How many characters would you like your password to be? Please choose a number between 8 and 100.")
+let numberOfCharacters = prompt("Enter password length: ")
   console.log(numberOfCharacters);
+
+  if (numberOfCharacters < 8){
+    alert("Please enter a number between 8 and 100.")
+  } else {
+
+  }
+
+  if (numberOfCharacters > 100){
+    alert("Please enter a number between 8 and 100.")
+  } else {
+
+  }
+
+
+
+
 
 
 
@@ -29,17 +45,6 @@ let numberOfCharacters = prompt ("How many characters would you like your passwo
 
 // Assignment Code
 let generateBtn = document.querySelector("#generate");
-
-
-
-
-
-
-
-
-
-
-
 
 
 // Write password to the #password input
@@ -53,14 +58,6 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-
-
-
-
-
-
-
 
 
 // if (firstpasschoice === true){

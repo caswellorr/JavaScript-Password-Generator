@@ -14,17 +14,17 @@ Arrays, Functions, Conditional Statements, a For Loop, and While Loops are imple
 
 ## Screenshots 📷 :
 
-* User is promted to choose the number of characters they want in their password:
+* User is prompted to choose the number of characters they want in their password:
 
-  ![alt text](./assets/screenshot1.png)
+  ![alt text](./Assets/screenshot1.png)
   
 * User decides what type of characters they want in their password:
 
-  ![alt text](./assets/screenshot2.png)
+  ![alt text](./Assets/screenshot2.png)
 
 * User is presented with a tailored password:
 
-  ![alt text](./assets/screenshot3.png)
+  ![alt text](./Assets/screenshot3.png)
   
 
 ## Takeaways 💡

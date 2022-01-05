@@ -1,6 +1,6 @@
 # 🏗️ Password Generator
 
-Link : https://caswellorr.github.io/Password-Generator/
+Link : https://caswellorr.github.io/Password_Generator/
 
 ## Description 📖
 
